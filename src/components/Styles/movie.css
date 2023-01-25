@@ -1,0 +1,49 @@
+.cardMovie{
+    width: 250px;
+    margin: 20px 12px 0px 12px;
+
+}
+.imageMovie{
+    height: 367px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filmsBlock{
+    padding: 80px 200px;
+}
+
+.bgCard{
+    height: 150px;
+    background: url("./img/BackgroundCrad.jpg") ; 
+    background-size: contain;
+    text-align: center;
+}
+
+.filmTitle{
+    font-size: 23px;
+    color: black;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.filmTitle_p{
+    font-size: 13px;
+    font-style: oblique;
+    color: black;
+    padding-top: 2px;
+    text-transform: capitalize;
+}
+
+.filmTitle_p__h3{
+    font-size: 18px;
+    color: black;
+    margin-block-start: -4px;
+    text-transform: capitalize;
+}

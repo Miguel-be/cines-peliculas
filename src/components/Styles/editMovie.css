@@ -1,0 +1,35 @@
+.imageMovie2{
+    height: 367px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.formFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formFlex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   margin-top: 18px;
+   
+}
+
+.aticleStyle{
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.divStyle{
+    box-sizing: border-box;
+    margin: 30px 29px;
+}
+
+.h1Style{
+    font-size: 34px;
+}

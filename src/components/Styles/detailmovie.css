@@ -1,0 +1,47 @@
+.imageMovie{
+    height: 367px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    padding: 135px 200px 26px 200px;
+}
+
+.sectionStyle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieDetail{
+    height: 367px;
+    width: 670px;
+    background-color: beige;
+    padding: 10px 20px;
+}
+
+.capitalize{
+    text-transform: capitalize;  
+}
+
+.h3text{
+    font-size: 16px;
+}
+
+.h4text{
+    font-size: 20px;
+}
+
+.subr{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.linkStyle{
+    text-decoration: none;
+    color: white;
+}
