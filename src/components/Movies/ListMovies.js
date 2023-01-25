@@ -2,8 +2,7 @@ import React from "react";
 import Movie from "./Movie";
 
 //La función envia por props a cada elemento la informacion para pntarse y luego usamos el elemento simple para crear una lista con todos los elementos-
-function ListMovies({ listMovies }) {
-  console.log(listMovies)
+function ListMovies({ listMovies }) {  
   const moviesLi = listMovies.map((oneElement) => {
     return <Movie oneElement={oneElement} key={oneElement._id} />;
   });
